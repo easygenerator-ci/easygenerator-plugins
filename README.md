@@ -283,18 +283,6 @@ For download fonts just call *WebFontLoader.load* with relevant parameters:
     WebFontLoader.load(fonts, manifest, publishSettings); //will be returned promise
   ```
 
-## Branchtrack
-Helper for easygenerator templates that support **Scenario question**
-
-### Supported message types
-* "branchtrack:player:init" - first time init;
-* "branchtrack:player:start" - start of playing, t.i. before first scene appear, including on restart;
-* "branchtrack:player:start" - new scene shown;
-* "branchtrack:player:start" - user hit the choice;
-* "branchtrack:player:start" - user reached last scene.
-
-For more information you can go to [JavaScript events API - BranchTrack](https://docs.branchtrack.com/events-api)
-
 ## Supported browser
 
 Easygenerator 'Browser not supported' page.
